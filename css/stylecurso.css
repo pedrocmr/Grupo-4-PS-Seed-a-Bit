@@ -48,13 +48,12 @@ background-color: #6BB7E8;
 /* Posição do menu superior*/
 .menu {
 position: absolute;
-left:  300px;
+left:  200px;
  top: 65px;
 
 }
 .menu ul li{
 	display: inline;
-
+    font-size: 25px;
 }
-.logo{
-position: absolute; top: 80 px; left: 100 px;}
+
