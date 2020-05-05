@@ -19,8 +19,8 @@ body{
 
 /*Corpo inteiro do site*/
 #wrapper{
-	width: 1920px;
-	height: 1080px;
+	width: 100%;
+	
 	margin: 0 auto;
 
 }
@@ -30,7 +30,7 @@ body{
 /*Parte exclusiva do cabeçalho*/
 #cabecalho{
  width: 100%;
- height: 150px;
+ height: 5%;
 position: relative;
 background-color: #6BB7E8;
 }
@@ -49,11 +49,98 @@ background-color: #6BB7E8;
 .menu {
 position: absolute;
 left:  200px;
- top: 65px;
+ top: 50px;
 
 }
 .menu ul li{
 	display: inline;
     font-size: 25px;
+
+}
+/*Contéudo do site*/
+#conteudogeral{
+
+	font-size: 7vw;
+	left:   15%;
 }
 
+/*Parte de bcc */
+#bcc{
+	font-size: 3vw;
+	font-weight: 60%;
+
+}
+#imgbcc{
+	width: 35vw;
+	height: 25vw;
+ 
+float: left;
+ 
+}
+
+
+#conteudobcc{
+    
+   
+  font-size: 1.5vw;
+
+}
+/* Parte de bsi */
+#bsi{
+	background-color: #D3D3D3;
+	font-size: 3vw;
+	font-weight: 60%;
+
+}
+#imgbsi{
+	width: 35vw;
+	height: 25vw;
+ 
+float: left;
+ 
+}
+
+
+#conteudobsi{
+    
+   
+  font-size: 1.5vw;
+
+}
+/* Parte de LC*/
+#lc{
+	
+	font-size: 3vw;
+	font-weight: 60%;
+
+}
+#imglc{
+	width: 35vw;
+	height: 25vw;
+ 
+float: left;
+ 
+}
+
+
+#conteudolc{
+    
+   
+  font-size: 1.5vw;
+
+}
+#rodape{
+  background-color: #6BB7E8;
+  width: 100%;
+
+}
+#rodape1{
+   float: left;
+   font-size: 1vw;
+   
+   
+}
+#rodape2{
+   
+   font-size: 1vw;
+}
