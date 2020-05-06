@@ -28,34 +28,38 @@ body{
 
 
 /*Parte exclusiva do cabeçalho*/
-#cabecalho{
- width: 100%;
- height: 5%;
-position: relative;
-background-color: #6BB7E8;
+#cabecalho { /*cabeçalho como um todo*/
+	display: flex;
+	border: 0;	
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	position: fixed;
+	background-color: #6BB7E8;
+	width: 100%;
 }
 
-
-/* Informações em relação a lista(Cor dela e separação entre elas)*/
-.menu li a:hover 
-{color: rgb(220, 20, 60);}
-
-.menu li a {
-	color: #000000; margin-right: 50px;
-
+#cabecalho h1 { /*ajuste da logo*/
+	margin-left: 25px;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
-/* Posição do menu superior*/
-.menu {
-position: absolute;
-left:  200px;
- top: 50px;
-
+#cabecalho a { /*ajuste das fontes*/
+	font-size: 30px;
+	color: #1A2E4F;
+	text-decoration: none;
+	list-style: none;
+	font-family: helvetica neue, sans-serif;
+	margin-right: 15px;
 }
-.menu ul li{
-	display: inline;
-    font-size: 25px;
 
+.menu { /*posicionamento dos menus*/
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 0px;
+	padding-right: 20px;
 }
 /*Contéudo do site*/
 #conteudogeral{
