@@ -61,6 +61,70 @@ body { /*retiranto as margens do site*/
 	margin-bottom: 70px;
 }
 
-#infra1{
+#infra1{ /*alinhamento das imagens de infraestrutura*/
 	margin-left: 8px;
+	margin-bottom: 13px;
+}
+
+#infra3{ /*alinhamento das imagens de infraestrutura*/
+	margin-bottom: 13px;
+}
+
+#cursos h1{ /*estilização do título da sessão*/
+	font-size: 30px;
+	color: #1A2E4F;
+	font-family: helvetica neue, sans-serif;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#cursos { /*definição da cor de fundo*/
+	background-color: #F5F5F5;
+	padding-bottom: 70px;
+}
+
+#cursos1 { /*alinhamento da primeira imagem da sessão*/
+	margin-left: 80px;
+	opacity: none;
+}
+
+#noticias h1{ /*estilização do título da sessão*/
+	font-size: 30px;
+	color: #1A2E4F;
+	font-family: helvetica neue, sans-serif;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#noticias a{ /*posicionamento das imagens*/
+	margin-left: 100px;
+}
+
+#noticias img{ /*tamanho máximo das imagens*/
+	max-height: 207.8px;
+}
+
+#noticias { /*espaçamento da sessão*/
+	margin-bottom: 10px;
+}
+
+#titulo { /*exibir os titulos lado a lado*/
+	display: flex;
+	max-height: 150px;
+}
+
+#titulo h4,a{ /*estilização dos títulos das noticias*/
+	color: #1A2E4F;
+	text-decoration: none;
+	list-style: none;
+	font-family: helvetica neue, sans-serif;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.titulo-marg h4,a{ /*alinhamento dos títulos com as imagens*/
+	margin-left: 5px;
+	margin-right: 10px;
 }
