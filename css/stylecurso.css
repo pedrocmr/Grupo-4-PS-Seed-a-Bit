@@ -129,8 +129,20 @@ float: left;
   font-size: 1.5vw;
 
 }
-#medialc{
-	
+#mediabcc ul li{
+	display: inline;
+	left: 85%;
+	position: relative;
+}
+#mediabsi ul li{
+	display: inline;
+	left: 85%;
+	position: relative;
+}
+#medialc ul li{
+	display: inline;
+	left: 85%;
+	position: relative;
 }
 
 /*RODAPÉ*/
