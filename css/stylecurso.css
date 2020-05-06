@@ -129,18 +129,28 @@ float: left;
   font-size: 1.5vw;
 
 }
+#medialc{
+	
+}
+
+/*RODAPÉ*/
 #rodape{
   background-color: #6BB7E8;
   width: 100%;
-
+  position: absolute;
+  font-size: 1vw; 
+  color :#FFFFFF;
+  
 }
 #rodape1{
    float: left;
-   font-size: 1vw;
    
+   left:   700px;
+   position: relative;
    
 }
 #rodape2{
+   right: 30px;
    
-   font-size: 1vw;
+   position: relative;
 }
