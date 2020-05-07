@@ -92,7 +92,7 @@ float: left;
 }
 /* Parte de bsi */
 #bsi{
-	background-color: #D3D3D3;
+	background-color: #F5F5F5;
 	font-size: 3vw;
 	font-weight: 60%;
 
@@ -177,4 +177,5 @@ float: left;
 	font-size: 5vw;
     font-family: helvetica neue, sans-serif;
 	
+}
 }

@@ -98,8 +98,16 @@ body { /*retiranto as margens do site*/
 	margin-bottom: 70px;
 }
 
-#noticias a{ /*posicionamento das imagens*/
-	margin-left: 100px;
+#noticia1 img{ /*posicionamento das imagens*/
+	margin-left: 70px;
+}
+
+#noticia2 img{
+	margin-left: 140px;
+}
+
+#noticia3 img{
+	margin-left: 140px;
 }
 
 #noticias img{ /*tamanho máximo das imagens*/
@@ -120,13 +128,44 @@ body { /*retiranto as margens do site*/
 	text-decoration: none;
 	list-style: none;
 	font-family: helvetica neue, sans-serif;
-	margin-left: 20px;
 	text-align: center;
 }
 
-.titulo-marg h4,a{ /*alinhamento dos títulos com as imagens*/
-	margin-left: 5px;
-	margin-right: 10px;
+#titulo2 { /*alinhamento dos títulos das notícias*/
+	padding-left: 15px;
+}
+
+#info { /*fundo e tamanho da sessão*/
+	background-color: #F5F5F5;
+	padding-bottom: 70px;
+}
+#info h1{ /*estilização do título da sessão*/
+	font-size: 30px;
+	color: #1A2E4F;
+	font-family: helvetica neue, sans-serif;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#cima a{ /*alinamento das imagens de cima*/
+	margin-left: 140px;
+	margin-bottom: 50px;
+}
+
+#baixo a{ /*alinhamento das imagens de baixo*/
+	margin-left: 270px;
+}
+
+#ondeestamos h1{
+	font-size: 30px;
+	color: #1A2E4F;
+	font-family: helvetica neue, sans-serif;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
 }
 /*RODAPÉ*/
 #rodape{
