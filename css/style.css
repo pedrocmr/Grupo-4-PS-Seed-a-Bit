@@ -131,8 +131,39 @@ body { /*retiranto as margens do site*/
 	text-align: center;
 }
 
-#titulo2 {
+#titulo2 { /*alinhamento dos títulos das notícias*/
 	padding-left: 15px;
+}
+
+#info { /*fundo e tamanho da sessão*/
+	background-color: #F5F5F5;
+	padding-bottom: 70px;
+}
+#info h1{ /*estilização do título da sessão*/
+	font-size: 30px;
+	color: #1A2E4F;
+	font-family: helvetica neue, sans-serif;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#cima a{ /*alinamento das imagens de cima*/
+	margin-left: 140px;
+	margin-bottom: 50px;
+}
+
+#baixo a{ /*alinhamento das imagens de baixo*/
+	margin-left: 270px;
+}
+
+#ondeestamos h1{
+	font-size: 30px;
+	color: #1A2E4F;
+	font-family: helvetica neue, sans-serif;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
 
 }
