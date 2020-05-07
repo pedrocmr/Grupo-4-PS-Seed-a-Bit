@@ -189,3 +189,7 @@ body { /*retiranto as margens do site*/
    
    position: relative;
 }
+footer{
+	background-color: #6BB7E8;
+	color: #FFFFFF;
+}

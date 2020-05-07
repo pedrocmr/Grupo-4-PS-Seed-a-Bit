@@ -65,6 +65,7 @@ body{
 /*Contéudo do site*/
 #conteudogeral{
 
+
 	font-size: 7vw;
 	left:   15%;
 }
@@ -85,7 +86,7 @@ float: left;
 
 
 #conteudobcc{
-    
+    text-align: justify;
    
   font-size: 1.5vw;
 
@@ -107,7 +108,7 @@ float: left;
 
 
 #conteudobsi{
-    
+    text-align: justify;
    
   font-size: 1.5vw;
 
@@ -130,7 +131,7 @@ float: left;
 
 #conteudolc{
     
-   
+   text-align: justify;
   font-size: 1.5vw;
 
 }
@@ -178,4 +179,7 @@ float: left;
     font-family: helvetica neue, sans-serif;
 	
 }
+
+footer{
+	font-family: helvetica neue, sans-serif;
 }
