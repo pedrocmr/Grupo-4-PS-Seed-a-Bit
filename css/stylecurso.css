@@ -1,0 +1,180 @@
+/* RESET */
+*{margin: 0; padding: 0; font-size: 100%; font-family: helvetica neue, sans-serif; font-weight: normal; box-sizing: border-box; border: none; outline: none;}
+img {max-width: 100%;}
+ul {list-style: none;}
+a {text-decoration: none;}
+h2 {font-size: 1.5em; color: #000}
+p {font-size: 1em; color: #000}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+*{
+    padding: 0px;
+    border: 0px;
+    list-style:none;
+}
+
+/*Corpo inteiro do site*/
+#wrapper{
+	width: 100%;
+
+	
+	margin: 0 auto;
+
+}
+
+
+
+/*Parte exclusiva do cabeçalho*/
+#cabecalho { /*cabeçalho como um todo*/
+	display: flex;
+	border: 0;	
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	position: fixed;
+	background-color: #6BB7E8;
+	width: 100%;
+}
+
+#cabecalho h1 { /*ajuste da logo*/
+	margin-left: 25px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#cabecalho a { /*ajuste das fontes*/
+	font-size: 30px;
+	color: #1A2E4F;
+	text-decoration: none;
+	list-style: none;
+	font-family: helvetica neue, sans-serif;
+	margin-right: 15px;
+}
+
+.menu { /*posicionamento dos menus*/
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 0px;
+	padding-right: 20px;
+}
+/*Contéudo do site*/
+#conteudogeral{
+
+	font-size: 7vw;
+	left:   15%;
+}
+
+/*Parte de bcc */
+#bcc{
+	font-size: 3vw;
+	font-weight: 60%;
+
+}
+#imgbcc{
+	width: 35vw;
+	height: 25vw;
+ 
+float: left;
+ 
+}
+
+
+#conteudobcc{
+    
+   
+  font-size: 1.5vw;
+
+}
+/* Parte de bsi */
+#bsi{
+	background-color: #F5F5F5;
+	font-size: 3vw;
+	font-weight: 60%;
+
+}
+#imgbsi{
+	width: 35vw;
+	height: 25vw;
+ 
+float: left;
+ 
+}
+
+
+#conteudobsi{
+    
+   
+  font-size: 1.5vw;
+
+}
+/* Parte de LC*/
+#lc{
+	
+	font-size: 3vw;
+	font-weight: 60%;
+
+}
+#imglc{
+	width: 35vw;
+	height: 25vw;
+ 
+float: left;
+ 
+}
+
+
+#conteudolc{
+    
+   
+  font-size: 1.5vw;
+
+}
+#mediabcc ul li{
+	display: inline;
+	left: 85%;
+	position: relative;
+}
+#mediabsi ul li{
+	display: inline;
+	left: 85%;
+	position: relative;
+}
+#medialc ul li{
+	display: inline;
+	left: 85%;
+	position: relative;
+}
+
+/*RODAPÉ*/
+#rodape{
+  background-color: #6BB7E8;
+  width: 100%;
+  position: absolute;
+  font-size: 1vw; 
+  color :#FFFFFF;
+  
+  
+}
+#rodape1{
+   float: left;
+   
+   left:   700px;
+   position: relative;
+   font-family: helvetica neue, sans-serif;
+}
+#rodape2{
+   right: 30px;
+   
+   position: relative;
+}
+#cursos{
+	text-align: center;
+	font-size: 5vw;
+    font-family: helvetica neue, sans-serif;
+	
+}

@@ -98,8 +98,16 @@ body { /*retiranto as margens do site*/
 	margin-bottom: 70px;
 }
 
-#noticias a{ /*posicionamento das imagens*/
-	margin-left: 100px;
+#noticia1 img{ /*posicionamento das imagens*/
+	margin-left: 70px;
+}
+
+#noticia2 img{
+	margin-left: 140px;
+}
+
+#noticia3 img{
+	margin-left: 140px;
 }
 
 #noticias img{ /*tamanho máximo das imagens*/
@@ -120,11 +128,9 @@ body { /*retiranto as margens do site*/
 	text-decoration: none;
 	list-style: none;
 	font-family: helvetica neue, sans-serif;
-	margin-left: 20px;
 	text-align: center;
 }
 
-.titulo-marg h4,a{ /*alinhamento dos títulos com as imagens*/
-	margin-left: 5px;
-	margin-right: 10px;
+#titulo2 {
+	padding-left: 15px;
 }
