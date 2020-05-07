@@ -137,12 +137,14 @@ body { /*retiranto as margens do site*/
 
 }
 /*RODAPÉ*/
-#rodape {
+#rodape{
   background-color: #6BB7E8;
   width: 100%;
   position: absolute;
   font-size: 1vw; 
   color :#FFFFFF;
+  
+  
 }
 #rodape1{
    float: left;
