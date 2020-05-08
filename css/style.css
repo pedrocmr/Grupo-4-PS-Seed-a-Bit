@@ -17,7 +17,7 @@ p {font-size: 1em; color: #777}
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
-	position: fixed;
+	
 	background-color: white;
 	width: 100%;
 }
@@ -45,9 +45,7 @@ p {font-size: 1em; color: #777}
 	padding-right: 20px;
 }
 
-#banner img { /*posicionamento do banner*/
-	margin-top: 143px;
-}
+
 body { /*retiranto as margens do site*/
 	margin: 0;
 }
